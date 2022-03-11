@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Calculator</title>
         <link rel="stylesheet" href="styles.css">
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Fredoka:wght@500&display=swap" rel="stylesheet">
     </head>
     <body>
         <script src="main.js"></script>
@@ -15,16 +17,16 @@
                 <table>
                     <tr>
                         <td>
-                            <button class="bt" onclick="clean()">AC</button>
+                            <button class="btgrey" onclick="clean()">AC</button>
                         </td>
                         <td>
-                            <button class="bt" onclick="back()">&larr;</button>
+                            <button class="btgrey" onclick="back()">&larr;</button>
                         </td>
                         <td>
-                            <button class="bt" onclick="insert('/')">&divide;</button>
+                            <button class="btgrey" onclick="insert('/')">&divide;</button>
                         </td>
                         <td>
-                            <button class="bt" onclick="insert('*')">&times;</button>
+                            <button class="btorange" onclick="insert('*')">&times;</button>
                         </td>
                     </tr>
                     <tr>
@@ -38,7 +40,7 @@
                             <button class="bt" onclick="insert('9')">9</button>
                         </td>
                         <td>
-                            <button class="bt" onclick="insert('-')">&minus;</button>
+                            <button class="btorange" onclick="insert('-')">&minus;</button>
                         </td>
                     </tr>
                     <tr>
@@ -52,7 +54,7 @@
                             <button class="bt" onclick="insert('6')">6</button>
                         </td>
                         <td>
-                            <button class="bt" onclick="insert('+')">&plus;</button>
+                            <button class="btorange" onclick="insert('+')">&plus;</button>
                         </td>
                     </tr>
                     <tr>
@@ -66,12 +68,12 @@
                             <button class="bt" onclick="insert('3')">3</button>
                         </td>
                         <td rowspan="2">
-                            <button class="bt" style="height: 106px;" onclick="calc()">&#61;</button>
+                            <button class="btorange" style="height: 106px; border-radius: 15px;" onclick="calc()">&#61;</button>
                         </td>
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <button class="bt" style="width: 106px;" onclick="insert('0')">0</button>
+                            <button class="bt" style="width: 106px; border-radius: 15px;" onclick="insert('0')">0</button>
                         </td>
                         <td>
                             <button class="bt" onclick="insert('.')">.</button>
