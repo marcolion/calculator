@@ -1,12 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Fredoka', sans-serif;
 }
 .background {
     background-image: linear-gradient(45deg,black, #FFF89A);
     height: 100vh;
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 .calculator {
@@ -23,6 +23,7 @@
     height: 50px;
     font-size: 25px;
     cursor: pointer;
+    border-radius: 50%;
     margin: 3px;
     background-color: rgb(31,31,31);
     border: none;
@@ -31,7 +32,9 @@
 .bt:hover {
     background-color: black;
 }
+
 #result {
+    font-family: 'Fredericka the Great', cursive;
     background-color: white;
     width: 207px;
     height: 30px;
@@ -40,4 +43,38 @@
     color: black;
     text-align: right;
     padding: 5px;
+}
+
+.btgrey {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 3px;
+    border: none;
+    background-color: rgb(185, 182, 182);
+    color:black;
+}
+
+.btgrey:hover {
+    border: 3px solid orange;
+    border-radius: 50%;
+}
+
+.btorange {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 3px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+
+.btorange:hover {
+    border: 3px solid rgb(185, 182, 182);
+    border-radius: 50%;
 }
